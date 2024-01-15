@@ -1,0 +1,81 @@
+# Introduction to HTML
+
+HTML = hypertext markup language 
+it tells the structure and formatting in a website 
+
+formatting = representing texts in a better way instead of writing in a default single way - like including bullet points, bold, indentations and many more 
+
+HTML tells the browser how to present the texts in the browser 
+
+# HTML elements & tags
+
+Standard elements that the browser recognises:
+
+Paragraph = <p> abcd </p>
+
+Heading = <h1> abcd </h1>
+
+Image = 
+
+The components used to design the structure of the website are called HTML tags → define the elements 
+
+## HTML tags
+
+a container for some content or other tags 
+
+
+<p> abcd </p> 
+
+<p> → opening tag
+</p> → closing tag
+abcd → content 
+
+<p> abcd </p> → element 
+
+# Hello world in HTML
+
+<p>Hello world</p>
+<p>subh</p>
+<p><b>megs</b></p>
+
+
+# Paragraph element
+Paragraph element displays any content in a single line altogether. 
+
+<p> This is my first paragraph</p> 
+<p> This is my second paragraph</p>
+
+<aside>
+⭐ nesting = using tags inside tags and the tags are called tested tags
+
+</aside>
+
+# Heading element
+The <h1> to <h6> are the six HTML elements to represent six levels of section heading. <h1> is the highest and <h6> is the lowest.
+
+the headings have their own default size 
+
+h1 will be printed in the same default size every time
+
+# HTML Boilerplate
+This is the standard format or the skeleton of writing HTML code 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first page</title>
+	</head>
+	<body>
+		<p>Hello world</p>
+	</body>
+</html>
+
+
+<!DOCTYPE html> → tells the version of HTML used (this is HTML 5)
+
+<html> → root tag 
+<head> → stores metadata (data about data)
+<title> → its for the browser to find the website ; it’s not displayed on the website rather on the address bar 
+<body> → data that are actually displayed on the website
+
+html → head → title (hierarchical arrangement)

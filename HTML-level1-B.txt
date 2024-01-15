@@ -1,0 +1,111 @@
+# Lists in HTML
+
+## Unordered lists
+eg -
+
+- item 1
+- item 2    → the items can be arranged anyway possible
+- item 3
+- .
+- .
+
+<ul>
+	<li> Bread </li>
+	<li> Butter </li>
+	<li> Jam </li>
+</ul>
+
+<ul> → tag for unordered list 
+
+## Ordered lists
+eg - 
+
+1. item 1 
+2. item 2    → items are arranged in order 
+3. item 3
+4. .
+5. .
+
+<ol type="2">
+	<li> Bread </li>
+	<li> Butter </li>
+	<li> Jam </li>
+</ol>
+
+<ol> → ordered list ; you can also specify the type of the ordered list
+
+# HTML attributes
+Attributes are used to add more information to the tag
+
+<ol type="1"> → type="1" is the attribute 
+
+# Anchor element
+
+used to add links to your page 
+
+<a href="https://google.com"> Google </a>
+
+`href` → attribute (hypertext reference)
+
+In the attribute → you can add 2 types of links
+
+- absolute link = internet
+- relative link = files
+- 
+
+# Image element
+
+used to add image to the page 
+
+<img src="image.png" alt="random image">
+
+<img> is a single tag element 
+
+src → can be relative or absolute url (to source the image that’s supposed to be shown)
+alt → if there’s some issue with displaying the src image then this alt text will be shown describing what the image was 
+
+the image and this code file should be in the same folder 
+
+also there’s no content inside the tag only the attributes 
+
+for an absolute link ; copy the image address of the image and paste it in the src attribute 
+
+remember = once the image is deleted from online it won’t show in your website too which is not the case with relative url which takes the image from your folder 
+
+# More HTML tags
+
+## br tag
+use to add next line (line break) to your page 
+
+<p>twinkle twinkle <br> little star <br> how i wonder <br> what you are</p>
+
+## bold, italic, underline tag
+
+use to highlight text in your page 
+
+<b> bold </b>
+<i> italic </i>
+<u> underline </u>
+
+# Comments in HTML
+this is the part of code which should not be parsed 
+
+<!-- this is a HTML comment -->
+
+they are generally for those who read the code and not for the browser 
+you can highlight a line and type `cmd+/` to make it a comment and hide it from the browser 
+
+# HTML is not case sensitive
+
+<html> = <HTML> 
+<p> = <P>
+
+JS, Java, C++ are case sensitive languages
+SQL, DB, HTMl are not case sensitive languages 
+
+# hr element
+it represent a thematic break between paragraph-level elements for eg- change of scene or shift of topic
+
+# HTML entities
+it is a piece of text that begins with an ampersand(&) and ends with a semicolon(;)
+they are used to display reserved characters

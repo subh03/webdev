@@ -1,0 +1,76 @@
+# Inline v/s Block
+
+!https://res.cloudinary.com/practicaldev/image/fetch/s--eZ91wNsB--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/t6vbjui1jm8q52osgfcj.png
+
+Block elements → takes up the full width available (whole block) ; they start from a new line 
+eg - <h>, <p>
+
+Inline elements → takes up only necessary width ; don’t start from new line 
+eg - <a>, <img>
+
+# div element (content division element)
+div is a container used to hold other HTML elements or group elements together 
+It is a block element 
+
+# span element
+span is also a generic container used to hold other HTML elements or group elements together (functions just like div)
+It is an inline element 
+
+# sub & sup tag
+sub → subscript 
+sup → superscript 
+
+a² + b² 
+
+a <sup> 2 </sup>
+
+H₂O
+H <sub> 2 </sub> O
+
+the space between the input and the sub/sup tag will be reflected on the webpage 
+
+# Semantic markup
+it is the markup that relates to the meaning of content
+
+We can classify all tags into :
+
+- Semantic tags = tags which tell you its function
+    
+    eg - <h1>, <p>
+    
+- Non-semantic tags = tags which don’t tell you its function
+    
+    eg - <div>, <span>
+    
+
+semantic tags help : 
+- make the code meaningful and structured layout 
+- make SEO friendly 
+- make the website more readable ; improve the user experience 
+
+# Semantic tags
+
+<header> </header>
+<main> </main>
+<footer> </footer>
+<nav> </nav>
+<article> </article>    
+<section> </section> - same as div 
+<aside> </aside> - related links/content 
+
+## HTML entities
+It is a piece of text (”string”) that begins with an ampersand (&) and ends with a semicolon (;)
+
+It is used to display reserved characters (which would otherwise be interpreted as HTML code) and invisible characters
+(like non-breaking spaces)
+can also use in place of characters that are difficult to type with a standard keyboard → like emojis 
+
+browsers interpret them and render correct character 
+
+space → &nbsp;
+< → &lt;
+> → &gt;
+“ → &quot; 
+
+## Emmet
+visit [emmet.io](http://emmit.io)

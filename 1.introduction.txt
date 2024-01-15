@@ -1,0 +1,29 @@
+# What is the internet?
+Interconnected network of computers around the world
+
+server = a special computer/system which is online 24/7 and is able to return data hassle-free all the time 
+client = the machine asking for the data 
+
+All the devices interconnected in the internet has a IP address  
+
+CLIENT (request data) → ISP (internet service provider) → DNS (domain name system - dictionary)
+
+Once the data is requested from ISP → it gives the request to DNS which has the IP addresses of all the servers → 
+after getting the request DNS gives back the IP address of the requested domain to the ISP → ISP gives the IP address to the client
+ → Now the client requests the domain directly using the given IP address 
+
+# What is web development?
+Building websites for the internet 
+
+The client (website/system) requests the server for data → the server returns data in the form of packets of HTML, CSS, JS → 
+the browser then get the data and gives us the website in display form (render)
+
+HTML → structure 
+CSS → style  
+JS → functionality 
+
+Frontend = HTML, CSS, JS, Bootstrap, Tailwind 
+Backend = Express, NodeJS 
+Database = SQL, MongoDB
+
+React
